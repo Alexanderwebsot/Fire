@@ -16,8 +16,8 @@ $(document).ready(function () {
   	  dots: true,
   	  centerMode: true,
   	  variableWidth: true,
-  	  prevArrow: $('.projects-arrow__l'),
-  	  nextArrow: $('.projects-arrow__r')
+  	  prevArrow: $('.dc_l'),
+  	  nextArrow: $('.dc_r')
     });
   }
   let $windowWidth = window.innerWidth;
@@ -29,8 +29,8 @@ $(document).ready(function () {
 	  slidesToShow: 4,
 	  slidesToScroll: 1,
 	  dots: true,
-	  prevArrow: $('.projects-arrow__l'),
-	  nextArrow: $('.projects-arrow__r'),
+	  prevArrow: $('.prt_l'),
+	  nextArrow: $('.prt_r'),
 	  responsive: [
 	      {
 	        breakpoint: 992,
