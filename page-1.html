@@ -285,7 +285,7 @@
 					</div>
 					<label for="ipt-file" class="ipt-label">
 						<img src="img/paperclip 1.png" alt="">
-						<span>прикрепить планировку</span>
+						<span class="ipt-label-text">прикрепить планировку</span>
 					</label>
 					<input name="ipt-file" id="ipt-file" type="file" class="file-ipt" placeholder="прикрепить планировку">
 					<div class="ipt-text">
@@ -307,7 +307,12 @@
 					</h3>
 					<div class="request-form-wrapper">
 						<div class="request-form__input-wrapper int-1">
-							<input type="text" class="request-form__input" placeholder="Выберите объект">
+							<select name="" id="select-request" class="select-request">
+								<option value="Выберите объект" disabled selected>Выберите объект</option>
+								<option value="Объект 1">Объект 1</option>
+								<option value="Объект 2">Объект 2</option>
+								<option value="Объект 3">Объект 3</option>
+							</select>
 						</div>
 						<div class="request-form__input__title">
 							Площадь объекта, м<sup>²</sup>
