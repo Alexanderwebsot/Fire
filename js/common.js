@@ -26,6 +26,7 @@ $(document).ready(function () {
           // instead of a settings object
         ]
     });
+  $('.team-slider').slick("refresh");
   $('.projects-slider-top').slick({
   	  infinite: false,
   	  slidesToShow: 1,
