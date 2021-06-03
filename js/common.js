@@ -1,12 +1,4 @@
-$(document).ready(function () {
-  $('.projects-slider-wrapper').slick({
-	  infinite: true,
-	  slidesToShow: 1,
-	  slidesToScroll: 1,
-	  dots: true,
-	  prevArrow: $('.projects-arrow__l'),
-	  nextArrow: $('.projects-arrow__r')
-  });
+$(window).on('load', function() { 
   $('.team-slider').slick({
       infinite: false,
       slidesToShow: 1,
@@ -21,12 +13,18 @@ $(document).ready(function () {
               dots: true,
             }
           }
-          // You can unslick at a given breakpoint now by adding:
-          // settings: "unslick"
-          // instead of a settings object
         ]
     });
-  $('.team-slider').slick("refresh");
+}
+$(document).ready(function () {
+  $('.projects-slider-wrapper').slick({
+	  infinite: true,
+	  slidesToShow: 1,
+	  slidesToScroll: 1,
+	  dots: true,
+	  prevArrow: $('.projects-arrow__l'),
+	  nextArrow: $('.projects-arrow__r')
+  });
   $('.projects-slider-top').slick({
   	  infinite: false,
   	  slidesToShow: 1,
