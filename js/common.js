@@ -15,7 +15,7 @@ $(window).on('load', function() {
           }
         ]
     });
-}
+})
 $(document).ready(function () {
   $('.projects-slider-wrapper').slick({
 	  infinite: true,
